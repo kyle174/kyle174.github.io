@@ -91,5 +91,6 @@
     }
     .text-container {
       text-align: justify;
+      margin: 1rem;
     }
   }
