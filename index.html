@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Andrade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kyle Andrade</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kyle Andrade</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/myself.png" alt="Kyle Andrade Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Kyle Andrade</h1>
+            <p class="section__text__p2">Software Engineering Student @ McMaster University</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/wip.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a href="https://linkedin.com/in/kyleandrade174" target="_blank">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" />
+                </a>
+                
+                <a href="https://github.com/kyle174" target="_blank">
+                    <img src="./assets/github.png" alt="My GitHub Profile" class="icon" />
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/self.jpg" 
+                alt="Profile Picture" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" 
+                        alt="Experience Icon" 
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>Multiple School and <br> Personal Projects</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" 
+                        alt="Education Icon" 
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>Third Year Software <br> Engineering Student</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Hi, I'm Kyle! As someone with a natural curiosity for the technical and intricate workings of the world, my passion for engineering has only grown stronger over time. With a particular interest in software engineering, I have delved deeper into the world of programming, computers, and technology through formal education and personal projects. I am excited to continue exploring the limitless possibilities that software engineering has to offer and ready to make a positive impact in the world through my work.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Bash</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MATLAB</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Verilog</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Inventor</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Kanban</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>G Suite</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MS Office</h3>
+                                <p>Intermediete</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Maven</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>TensorFlow</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Numpy</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Matplotlib</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>OpenAI</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/allergypal.jpg" alt="AllergyPal" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">AllergyPal</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kyle174/AllergyPal-Model', '_blank')">
+                        About
+                    </button>
+                </div>                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/website.png" alt="Personal Portfolio" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Personal Portfolio</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kyle174/personal-portfolio', '_blank')">
+                        About
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/maze.png" alt="Maze Solver" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Maze Solver</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kyle174/a1-maze-runner-kyle174', '_blank')">
+                        About
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/password.png" alt="Password Resilience Analyzer" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Password Resilience Analyzer</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kyle174/Password-Resilience-Analyzer', '_blank')">
+                        About
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/1p13proj.png" alt="Revenge Of The Recycling System" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Revenge Of The Recycling System</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://kyle-andrade.notion.site/Project-3-05098cac2e864746a292dc6db78f62f9?pvs=4', '_blank')">
+                        About
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/fishrush.png" alt="Fish Rush" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Fish Rush</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kyle174/FishRush', '_blank')">
+                        About
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:andrade17kyle@gmail.com">andrade17kyle@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/in/kyleandrade174" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Kyle Andrade. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
